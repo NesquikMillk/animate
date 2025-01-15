@@ -25,7 +25,7 @@ controls.update();
 // Загрузка модели
 const loader = new GLTFLoader();
 loader.load(
-  './assets/model.glb', // Замените на путь к вашей модели
+  './assets/scene.glb', 
   (gltf) => {
     const model = gltf.scene;
     scene.add(model);
