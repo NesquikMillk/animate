@@ -25,7 +25,7 @@ controls.update();
 // Загрузка модели
 const loader = new GLTFLoader();
 loader.load(
-  './assets/scene.glb', 
+  './assets/komachi_panko.glb', 
   (gltf) => {
     const model = gltf.scene;
     scene.add(model);
